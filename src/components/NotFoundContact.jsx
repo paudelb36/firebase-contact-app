@@ -2,9 +2,11 @@ import React from "react";
 
 const NotFoundContact = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 gap-2">
-      <img  src="/Hands Contact.png" alt="" />
-      <h3 className="text-3xl text-orange">Contact Not Found</h3>
+    <div className="flex  h-40 justify-center items-center gap-4">
+      <div>
+        <img src="/Hands Contact.png" alt="" />
+      </div>
+      <h3 className="text-3xl font-semibold text-orange">Contact Not Found</h3>
     </div>
   );
 };
